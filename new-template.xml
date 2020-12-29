@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html class='no-js' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr' xmlns:og='http://ogp.me/ns#'>
+  <head prefix='og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#'>
+    <!--DEFINE A FORMATAÇÃO E CARACTERES UTILIZADOS NO SITE-->
+    <meta charset='UTF-8'/>
+
+    <!--DEFINE RESPONSIVIDADE-->  
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+
+    <!--DEFINE OS METADADOS DO WEBSITE-->
+    <b:include data='blog' name='all-head-content'/>
+
+    <b:if cond='data:blog.pageType == &quot;index&quot;'>
+      <meta content='Autor' name='author'/>
+      <meta content='' property='og:image'/>
+      <meta content='Site de demonstração' property='og:description'/>
+      <meta content='Demonstração de sites' property='og:title'/>
+    </b:if>
+
+    <b:if cond='data:blog.pageType == &quot;index&quot;'>
+      <title>Demonstração de Sites</title>
+    </b:if>
+
+    <!--DEFINE OS ESTILOS DE FONTE DO SITE-->
+    <link href='https://fonts.gstatic.com' rel='preconnect'/>
+    <link href='https://fonts.googleapis.com/css2?family=Open+Sans&amp;display=swap' rel='stylesheet'/>
+
+    <!--DEFINE A FOLHA DE ESTILOS DE USANDO O BOOTSTRAP-->
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css' rel='stylesheet'/>
+
+    <!--DEFINE UMA FOLHA DE ESTILOS PERSONALIZADA-->
+    <style>
+      
+    </style>
+
+    <!--DEFINE OS CÓDIGOS JAVASCRIPT DO BOOTSTRAP - SEPARATE-->
+    <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js'/>
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js'/>
+
+    <!--CARREGAR BIBLIOTECA DE FUNÇÕES JQUERY-->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js'/>
+
+    <!--DEFINE O ÍCONE (favicon.ico) DO SITE-->
+    <link href='favicon.ico' rel='shrotcut icon' type='image/x-icon'/>
+
+    <b:skin><![CDATA[
+
+   /* ADICIONE MAIS ESTILOS A PARTIR DESTA LINHA */
+
+  ]]></b:skin>
+  </head>
+
+  <!--CONTEÚDO DO SITE-->
+  <body>
+    <b:section class='main' id='main'/>
+  </body>
+</html>
